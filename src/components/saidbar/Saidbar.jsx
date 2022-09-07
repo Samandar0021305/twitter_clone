@@ -1,7 +1,10 @@
 import "./saidbar.scss";
 
+import {Link} from "react-router-dom";
+
 // images 
 import img from "../../img/twitter-logo.svg";
+import profile from "../../img/profile.png"
 
 // icon
 import HomeIcon from '@mui/icons-material/Home';
@@ -11,7 +14,7 @@ import ForumIcon from '@mui/icons-material/Forum';
 import BookmarksIcon from '@mui/icons-material/Bookmarks';
 import DynamicFormIcon from '@mui/icons-material/DynamicForm';
 import PersonIcon from '@mui/icons-material/Person';
-
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 function Saidbar(){
     return(
@@ -22,13 +25,13 @@ function Saidbar(){
             <div className="saidbar-box-center">
                 <HomeIcon />
                <div className="saidbar-text">
-               <p>home</p>
+               <Link to="/">home</Link>
                </div>
             </div>
             <div className="saidbar-box-center">
                 <PictureInPictureAltIcon />
                 <div className="saidbar-text">
-               <p>Explore</p>
+               <Link to='/explore'>Explore</Link>
                </div>
             </div>
             <div className="saidbar-box-center">
@@ -61,11 +64,23 @@ function Saidbar(){
                <p>Profile</p>
                </div>
             </div>
+            <div className="saidbar-box-center">
+                <MoreHorizIcon />
+                <div className="saidbar-text">
+               <p>More</p>
+               </div>
+            </div>
         </div>
        </div>
        <div className="saidbar-end">
 
-        <div></div>
+        <div className="saidbar-profil">
+            <img src={profile} alt="prfile-logo" />
+            <div>
+                <h2>Bobur</h2>
+                <p>@bobur_mavlonov</p>
+            </div>
+        </div>
 
        </div>
 

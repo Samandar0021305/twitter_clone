@@ -7,15 +7,16 @@
     padding-top: 20px;
     text-align: center;
     // overflow-y: scroll;
-    // height: 100vh;
-    border-right:1px solid #E5E5E5; ;
+    height: 120vh;
+    border-right:1px solid #E5E5E5; 
+    
 }
 .saidbar img{
     // display: flex;
     width: 40px;
     height: 40px;
     object-fit: contain;
-    margin-right: 60px;
+    margin-right: 75px;
 }
 .saidbar-box-center{
     display: flex;
@@ -24,7 +25,13 @@
     width: 120px;
     margin-top: 10px;
 }
-.saidbar-box-center p{
+.saidbar-box-center p , .saidbar-box-center Link{
+    cursor: pointer;
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+}
+Link{
     cursor: pointer;
     font-style: normal;
     font-size: 16px;
@@ -43,4 +50,42 @@
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
+}
+
+.saidbar-profil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+    margin-left: 50px;
+}
+.saidbar-profil div{
+    display: flex;
+    flex-direction: column;
+  align-items: start;
+}
+.saidbar-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.saidbar-profil h2{
+    font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+}
+
+.saidbar-end p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.saidbar-profil img , .saidbar-profil h2 , .saidbar-profil p{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
 }

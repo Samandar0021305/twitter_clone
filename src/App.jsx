@@ -1,14 +1,16 @@
 import './App.scss';
 
-// import {Switch , Route } from "react-router-dom";
-import Saidbar from './components/saidbar/Saidbar';
+import {Switch , Route } from "react-router-dom";
 
+import Home from "./pages/home/Home.jsx";
 
 
 function App() {
   return (
    <>
-      <Saidbar />
+      <Switch>
+        <Route path="/" component={Home}  exact/>
+      </Switch>
    </>
   );
 }
