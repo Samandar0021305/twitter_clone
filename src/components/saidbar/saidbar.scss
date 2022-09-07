@@ -1,0 +1,46 @@
+.saidbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 400px;
+    // align-items: center;
+    padding-top: 20px;
+    text-align: center;
+    // overflow-y: scroll;
+    // height: 100vh;
+    border-right:1px solid #E5E5E5; ;
+}
+.saidbar img{
+    // display: flex;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 60px;
+}
+.saidbar-box-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    margin-top: 10px;
+}
+.saidbar-box-center p{
+    cursor: pointer;
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+}
+.saidbar-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    width: 50%;
+}
+
+.saidbar-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
