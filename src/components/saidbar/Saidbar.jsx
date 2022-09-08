@@ -70,6 +70,7 @@ function Saidbar(){
                <p>More</p>
                </div>
             </div>
+            <button className="saidbar-btn">Tweet</button>
         </div>
        </div>
        <div className="saidbar-end">
