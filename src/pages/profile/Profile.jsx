@@ -6,7 +6,7 @@ function Profile(){
     return(
         <div className="profile">
             <Saidbar />
-
+             
         </div>
     )
 }
