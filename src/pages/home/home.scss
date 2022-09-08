@@ -269,3 +269,28 @@ cursor: pointer;
 .show{
     margin-left: 5px;
 }
+.homeIcon-pic-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 20px;
+}
+.homeIcon-pic-item{
+    display: flex;
+    align-items: center;
+}
+.homeIcon-pic-list p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #536471;
+    margin-left: 5px;
+    // margin-top: 5px;
+}
+.homeIcon-pic-list img{
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+.profile-3{
+    height: 180px;
+}

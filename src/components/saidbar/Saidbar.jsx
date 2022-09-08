@@ -61,7 +61,7 @@ function Saidbar(){
             <div className="saidbar-box-center">
                 <PersonIcon />
                 <div className="saidbar-text">
-               <p>Profile</p>
+               <Link to="/profile">Profile</Link>
                </div>
             </div>
             <div className="saidbar-box-center">

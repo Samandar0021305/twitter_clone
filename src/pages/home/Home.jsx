@@ -11,11 +11,19 @@ import food from "../../img/food.png";
 import settings from "../../img/settings.png";
 import img1 from "../../img/img1.png";
 import img2 from "../../img/img2.png";
+
+import comment from "../../img/comment.png";
+import comment1 from "../../img/comment1.png";
+import comment2 from "../../img/comment2.png";
+import comment3 from "../../img/comment3.png";
+import comment4 from "../../img/comment4.png";
+
 // icon
 import icon1 from "../../img/icon1.png";
 import icon2 from "../../img/icon2.png";
 import icon3 from "../../img/icon3.png";
 import icon4 from "../../img/icon4.png";
+
 
 
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
@@ -61,7 +69,30 @@ function Home(){
                 <h2>Designsta <span>@inner · 25m</span> </h2>
                 <p>Twitterdagi ayol-erkak qarama-qarshiliginglardan o'zinglar zerikmadinglarmi?</p>
              </li>
-            </ul>    
+            </ul>  
+
+            <ul className="homeIcon-pic-list">
+                <li className="homeIcon-pic-item">
+                <img src={comment} alt="" />
+                <p>10</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment1} alt="" />
+                <p>1</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment2} alt="" />
+                <p>8</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment3} alt="" />
+             
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment4} alt="" />
+               
+                </li>    
+            </ul>  
             
              </div>
 
@@ -69,7 +100,7 @@ function Home(){
             </div>
 
 
-            <div className="home-Designsta-profile">
+            <div className="home-Designsta-profile profile-3">
             <div className="home-Designsta-profile-img">
             <ul className="home-Designsta-profile-img-list">
              <li className="home-Designsta-profile-img-item">
@@ -80,7 +111,28 @@ function Home(){
                 <p>YPIP dasturining bu yilgi sezoni ham o’z nihoyasiga yetmoqda. Mentorlik davomida talaba va yangi bitiruvchilarni o’sayotganini ko’rib hursand bo’ladi odam.</p>
              </li>
             </ul>    
-            
+            <ul className="homeIcon-pic-list">
+                <li className="homeIcon-pic-item">
+                <img src={comment} alt="" />
+               
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment1} alt="" />
+                <p>5</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment2} alt="" />
+                <p>9</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment3} alt="" />
+             
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment4} alt="" />
+               
+                </li>    
+            </ul>  
              </div>
             </div>
 
@@ -96,9 +148,31 @@ function Home(){
                     Кечиринглар</p>
              </li>
             
-            </ul>    
-            <img className="home-center-picture" src={food} alt="food-logo picture" />
+            </ul> 
             
+            <img className="home-center-picture" src={food} alt="food-logo picture" />
+            <ul className="homeIcon-pic-list">
+                <li className="homeIcon-pic-item">
+                <img src={comment} alt="" />
+                <p>10</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment1} alt="" />
+                <p>1</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment2} alt="" />
+                <p>8</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment3} alt="" />
+             
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment4} alt="" />
+               
+                </li>    
+            </ul>     
              </div>
             </div>
 
