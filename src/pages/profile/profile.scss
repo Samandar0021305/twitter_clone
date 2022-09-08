@@ -1,3 +1,102 @@
 .profile{
     display: flex;
 }
+.profile-center-topbar{
+    border-bottom:1px solid #D8D8D8;
+    padding: 5px 20px;
+}
+.profile-center{
+    width: 620px;
+    border-left: 1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+}
+
+.profile-center-background{
+    position: relative;
+    background-image: url("../../img/profile-backg.png");
+    height: 220px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.profile-center-background::after{
+    content: "";
+    position: absolute;
+    background-image: url("../../img/back-after.png");
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    bottom: -50px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.profile-center-box-btn{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 90px;
+    cursor: pointer;
+    height: 34px;
+    background-color: transparent;
+
+}
+.profile-center-box{
+    position: relative;
+    user-select: none;
+}
+.profile-center-box-title h2{
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+    color: #000000;
+}
+.profile-center-box-title{
+    padding-top: 70px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.profile-center-box-title span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.profile-center-box-title b{
+
+    cursor: pointer;
+    color: aqua;
+}
+.profile-center-box-title p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.profile-center-box-list{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 25px 10px;
+    padding-left: 29px;
+}
+.profile-center-box-list li{
+    display: flex;
+}
+.profile-center-box-list p{
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.profile-center-box-list img{
+   width: 16px;
+   height: 16px;
+   cursor: pointer;
+}
