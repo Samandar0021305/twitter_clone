@@ -21,6 +21,27 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import settings from "../../img/settings.png";
 
 
+
+import imgHome from "../../img/home-topbar.png";
+import profile from "../../img/profile.png";
+import profile1 from "../../img/profile1.png";
+import profile2 from "../../img/profile2.png";
+import profile3 from "../../img/profile3.png";
+import food from "../../img/image 8.png";
+// import settings from "../../img/settings.png";
+// import img1 from "../../img/img1.png";
+// import img2 from "../../img/img2.png";
+
+import comment from "../../img/comment.png";
+import comment1 from "../../img/comment1.png";
+import comment2 from "../../img/comment2.png";
+import comment3 from "../../img/comment3.png";
+import comment4 from "../../img/comment4.png";
+
+
+import ProfileMe from "../../img/profile-img-my.png";
+
+
 function Profile(){
     return(
         <div className="profile">
@@ -62,12 +83,129 @@ function Profile(){
                        </ul>
                     </div>
 
+                    <div className="home-Designsta-profile profile-3">
+            <div className="home-Designsta-profile-img">
+            <ul className="home-Designsta-profile-img-list">
+             <li className="home-Designsta-profile-img-item">
+            <img src={ProfileMe} alt="logo" />
+             </li>
+             <li className="home-Designsta-profile-img-item">
+                <h2>Bobur <span>@bobur_mavlonov · Apr 1</span> </h2>
+                <p>4-kursni tugatgunimcha kamida bitta biznesim bo'lishini, uylanish uchun moddiy jihatdan to'la-to'kis tayyor bo'lishni, sog'lik va jismoniy holatni normallashtirishni reja qildim</p>
+             </li>
+            </ul>    
+            <ul className="homeIcon-pic-list">
+                <li className="homeIcon-pic-item">
+                <img src={comment} alt="" />
+               
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment1} alt="" />
+                <p>5</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment2} alt="" />
+                <p>9</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment3} alt="" />
+             
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment4} alt="" />
+               
+                </li>    
+            </ul>  
+             </div>
+            </div>
+
+            <div className="home-Designsta-profile profile-3">
+            <div className="home-Designsta-profile-img">
+            <ul className="home-Designsta-profile-img-list">
+             <li className="home-Designsta-profile-img-item">
+            <img src={ProfileMe} alt="logo" />
+             </li>
+             <li className="home-Designsta-profile-img-item">
+                <h2>Bobur <span>@bobur_mavlonov · Apr 1</span> </h2>
+                <p>Bizda shunaqa bir illat bor: gap bo'lsa bo'ldi, nima deyayotganimizga qarab ham o'tirmaymiz. 
+
+Bitta biznes trener nito gapirib qo'ysa, hamma biznes trenerlar yomonga chiqadi slishkom aqlli odamlar nazdida. 
+
+Gap faqat biznes trenerlar haqida emas.</p>
+             </li>
+            </ul>    
+            <ul className="homeIcon-pic-list">
+                <li className="homeIcon-pic-item">
+                <img src={comment} alt="" />
+               
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment1} alt="" />
+                <p>5</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment2} alt="" />
+                <p>9</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment3} alt="" />
+             
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment4} alt="" />
+               
+                </li>    
+            </ul>  
+             </div>
+            </div>
+
+
+            <div className="home-Designsta-profile profile-2">
+            <div className="home-Designsta-profile-img">
+            <ul className="home-Designsta-profile-img-list">
+             <li className="home-Designsta-profile-img-item">
+            <img src={ProfileMe} alt="logo" />
+             </li>
+             <li className="home-Designsta-profile-img-item">
+                <h2>Bobur <span>@bobur_mavlonov · Apr 1</span> </h2>
+                <p>A bo'pti maskamasman</p>
+             </li>
+            
+            </ul> 
+            
+            <img className="home-center-picture" src={food} alt="food-logo picture" />
+            <ul className="homeIcon-pic-list">
+                <li className="homeIcon-pic-item">
+                <img src={comment} alt="" />
+                <p>10</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment1} alt="" />
+                <p>1</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment2} alt="" />
+                <p>8</p>
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment3} alt="" />
+             
+                </li>    
+                <li className="homeIcon-pic-item">
+                <img src={comment4} alt="" />
+               
+                </li>    
+            </ul>     
+             </div>
+            </div>
+
              
              </div>
 
 
 
         <div className="profile-right">
+            
         <div className="home-rightbar-input">
                     <input type="text" placeholder="Search Twitter" />
         </div>
