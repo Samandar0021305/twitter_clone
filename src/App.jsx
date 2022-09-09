@@ -9,7 +9,7 @@ function App() {
   return (
    <>
       <Switch>
-        <Route path="/" component={Home}  exact/>
+        <Route path="/twitter_clone"  component={Home}  exact/>
         <Route path="/profile" component={Profile} />
       </Switch>
    </>

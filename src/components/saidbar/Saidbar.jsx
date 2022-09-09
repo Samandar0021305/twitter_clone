@@ -25,7 +25,7 @@ function Saidbar(){
             <div className="saidbar-box-center">
                 <HomeIcon />
                <div className="saidbar-text">
-               <Link to="/">home</Link>
+               <Link to="/twitter_clone">home</Link>
                </div>
             </div>
             <div className="saidbar-box-center">
