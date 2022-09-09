@@ -1,5 +1,7 @@
 import Saidbar from "../../components/saidbar/Saidbar"
 
+import "../../pages/home/home.scss";
+
 import "./profile.scss";
 
 
@@ -11,6 +13,12 @@ import Group1 from "../../img/Group1.png";
 import Group2 from "../../img/Group2.png";
 import Group3 from "../../img/Group3.png";
 
+import img1 from "../../img/img1.png";
+import img2 from "../../img/img2.png";
+
+
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import settings from "../../img/settings.png";
 
 
 function Profile(){
@@ -60,7 +68,84 @@ function Profile(){
 
 
         <div className="profile-right">
+        <div className="home-rightbar-input">
+                    <input type="text" placeholder="Search Twitter" />
+        </div>
+        <div className="homeFollow profile-right-box">
+                <h2 className="homeFollow-text">You might like</h2>
+                <div className="homeFollow-box">
+                    <div>
+                        <ul className="homeFollow-list">
+                            <li>
+                                <img src={img2} alt="" />
+                            </li>
+                            <li>
+                                <h2>Shuhratbek</h2>
+                                <p>@mrshukhrat</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <button className="homeFollow-btn">Follow</button>
+                </div>
+                <div className="homeFollow-box">
+                    <div>
+                        <ul className="homeFollow-list">
+                            <li>
+                                <img src={img1} alt="" />
+                            </li>
+                            <li>
+                                <h2>Mushtariy</h2>
+                                <p>@Mushtar565266</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <button className="homeFollow-btn">Follow</button>
+               
+                </div>
+                <p className="homeContainer-text show">Show more</p>
+            </div>
 
+            
+        <div className="homeContainer profile-rigthtbar-end-bar">
+                <div className="home-rightbar-box-start">
+                    <h2>Trends for you</h2>
+                    <img src={settings} alt="logo" />
+                </div> 
+               
+
+                <ul className="homeContainer-list ">
+                    <li className="homeContainer-item">
+                        <p>Trending in Germany</p>
+                        <h2>Revolution</h2>
+                        <p>50.4K Tweets</p>
+                    </li>
+                    <li className="homeContainer-item">
+                        <MoreHorizIcon />
+                    </li>
+                </ul>
+                <ul className="homeContainer-list">
+                    <li className="homeContainer-item">
+                        <p>Trending in Germany</p>
+                        <h2>Revolution</h2>
+                        <p>50.4K Tweets</p>
+                    </li>
+                    <li className="homeContainer-item">
+                        <MoreHorizIcon />
+                    </li>
+                </ul>
+                <ul className="homeContainer-list">
+                    <li className="homeContainer-item">
+                        <p>Trending in Germany</p>
+                        <h2>Revolution</h2>
+                        <p>50.4K Tweets</p>
+                    </li>
+                    <li className="homeContainer-item">
+                        <MoreHorizIcon />
+                    </li>
+                </ul>
+
+                <p className="homeContainer-text">Show more</p>
+                </div>
         </div>
 
         </div>
